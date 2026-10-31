@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Push Notifications capability: development for Xcode installs, production for TestFlight. -->
+	<key>aps-environment</key>
+	<string>$(BV_APS_ENVIRONMENT)</string>
+	<!-- App Attest capability: the SDK attests the device when it registers. -->
+	<key>com.apple.developer.devicecheck.appattest-environment</key>
+	<string>$(BV_APP_ATTEST_ENVIRONMENT)</string>
+</dict>
+</plist>

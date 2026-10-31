@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D48C421BDA5AD3E64C4E7AE = {isa = PBXBuildFile; fileRef = 887B0C5123FBE83620046F60; };
+		1B4AD62BBC65C32E086F01C8 = {isa = PBXBuildFile; fileRef = A92F8869CD79AEC6798B9072; };
+		25570A4019B392232A9BCFDA = {isa = PBXBuildFile; fileRef = 350C68927138054D7E14C8A9; };
+		2885B5BF04244F68AB22D758 = {isa = PBXBuildFile; productRef = 489C348277B236E1D3587AC3; };
+		3065340299E4661A90938FE1 = {isa = PBXBuildFile; fileRef = 596EEF6EE0FE50E430250EE2; };
+		30BDCE6F04C863E67A3B111E = {isa = PBXBuildFile; fileRef = 1C45FD54D932F1842CCB0051; };
+		375EDB82EC0F88A4596410B4 = {isa = PBXBuildFile; fileRef = 60D3F053F81896169EDA9546; };
+		416EC3ECF026774B35D97799 = {isa = PBXBuildFile; fileRef = 29B8E25F041194932AEB1C36; };
+		516D908562A35649EC7801D6 = {isa = PBXBuildFile; fileRef = 012F46EA8B68AF29A9A2E292; };
+		6226955E0023DCCC617C1D3D = {isa = PBXBuildFile; fileRef = 4CEDF20443BF6416D77631FD; };
+		65D881F10D71421A973FF950 = {isa = PBXBuildFile; fileRef = B3C6089A50A54ADE83BF2A1A; };
+		730026A6B59D410F592E3C23 = {isa = PBXBuildFile; fileRef = CC92ECE8704273E143BC29AF; };
+		767F081C4E6625657B651A73 = {isa = PBXBuildFile; fileRef = 7FE989262B0CCD1C5023B21B; };
+		84636BA9A0FB4C01C8721791 = {isa = PBXBuildFile; productRef = 8C24E9B06FCDA86869AF63F1; };
+		86803EA1705ABB60FDBA157A = {isa = PBXBuildFile; fileRef = 61D3273B837EAF24008DC717; };
+		8A5F77BFE626AC2D5C33EA1B = {isa = PBXBuildFile; productRef = 84D7AC6D52A1AF94FB824FEA; };
+		99A6895964D67B3C11B25D44 = {isa = PBXBuildFile; fileRef = B4611FC59A31994FD0C03839; };
+		AA785E900B2D120DACE700DA = {isa = PBXBuildFile; fileRef = C00CAC661FC0E67CA9BABA39; };
+		B1DB15E6C6A65BCBDDA07EFB = {isa = PBXBuildFile; fileRef = 751D3D92D15DAE67E84EE053; };
+		B615FB355F029E76A2C5EFAF = {isa = PBXBuildFile; fileRef = 7BB14CC5615B97CFDA3F6AF5; };
+		B671EFB68B3D30AB1B1C91CA = {isa = PBXBuildFile; fileRef = B499318D87C6AB62B1D5A15F; };
+		BB14F242766C2FA007D847A7 = {isa = PBXBuildFile; fileRef = C5BD2F71E472D95F4281DC56; };
+		C3040B7E599030A846927B66 = {isa = PBXBuildFile; fileRef = 9A77B41C1394260927686506; };
+		C57956D5B2AC0B3B7ADE213D = {isa = PBXBuildFile; fileRef = 00D78A7F9003654E151B97FB; };
+		DB490C9A9F3173B0EC3B036A = {isa = PBXBuildFile; fileRef = BF2DB9B00094DF5CA8698B70; };
+		DD1141DBE8E8DAB40A869F2A = {isa = PBXBuildFile; fileRef = 733439563C4C7CE54F510B04; };
+		DDBD78837393B3E81D7369F2 = {isa = PBXBuildFile; fileRef = 5A138A9CE2D3D60DE34E115A; };
+		EE3B96106FDC64FBB69C7FAE = {isa = PBXBuildFile; fileRef = 3A960BE5DDD31E23CE86F95A; };
+		FAB41F8C02BE68B8FA2AF52D = {isa = PBXBuildFile; fileRef = 95C738BAAE6495A2A6BEA6FB; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D919E899832C0832BB075B = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EC4DB90A2FCE4638B1D5C0;
+			proxyType = 1;
+			remoteGlobalIDString = F2CB8F350DC69CDA0DFF1CCC;
+			remoteInfo = BVGarner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D78A7F9003654E151B97FB = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		012F46EA8B68AF29A9A2E292 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterPrefs.swift; sourceTree = "<group>"; };
+		0EBF6426C1F8E46F13869101 = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		1C45FD54D932F1842CCB0051 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTab.swift; sourceTree = "<group>"; };
+		29B8E25F041194932AEB1C36 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		2E94CF7DB8D7A3DC91253821 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BVGarner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		350C68927138054D7E14C8A9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		3A960BE5DDD31E23CE86F95A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushHistory.swift; sourceTree = "<group>"; };
+		4CEDF20443BF6416D77631FD = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuietText.swift; sourceTree = "<group>"; };
+		52FA9F47274BDC105CC91BBF = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BVGarnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		596EEF6EE0FE50E430250EE2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsReport.swift; sourceTree = "<group>"; };
+		5A138A9CE2D3D60DE34E115A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		60D3F053F81896169EDA9546 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsReportTests.swift; sourceTree = "<group>"; };
+		61D3273B837EAF24008DC717 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiText.swift; sourceTree = "<group>"; };
+		733439563C4C7CE54F510B04 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		751D3D92D15DAE67E84EE053 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxTab.swift; sourceTree = "<group>"; };
+		7BB14CC5615B97CFDA3F6AF5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BvUi.swift; sourceTree = "<group>"; };
+		7FE989262B0CCD1C5023B21B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		87C3AA2291F47C89C993D6C5 = {isa = PBXFileReference; lastKnownFileType = text; path = client.xcconfig.example; sourceTree = "<group>"; };
+		887B0C5123FBE83620046F60 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		9A77B41C1394260927686506 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushLog.swift; sourceTree = "<group>"; };
+		A92F8869CD79AEC6798B9072 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		B3C6089A50A54ADE83BF2A1A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BVGarnerApp.swift; sourceTree = "<group>"; };
+		B4611FC59A31994FD0C03839 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventText.swift; sourceTree = "<group>"; };
+		B499318D87C6AB62B1D5A15F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLog.swift; sourceTree = "<group>"; };
+		BF2DB9B00094DF5CA8698B70 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushLogTests.swift; sourceTree = "<group>"; };
+		C00CAC661FC0E67CA9BABA39 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTab.swift; sourceTree = "<group>"; };
+		C5BD2F71E472D95F4281DC56 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInForm.swift; sourceTree = "<group>"; };
+		CC92ECE8704273E143BC29AF = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicTests.swift; sourceTree = "<group>"; };
+		DEAD1471B5FF682D7E1566C8 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB1CE03A1BBC3A902DF82DA6 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BVGarner.entitlements; sourceTree = "<group>"; };
+		95C738BAAE6495A2A6BEA6FB = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A88D75DC3E581215323476A3 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC01A429C07275469B74DFB1 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2885B5BF04244F68AB22D758,
+				8A5F77BFE626AC2D5C33EA1B,
+				84636BA9A0FB4C01C8721791,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55563A37A2A2C90A215A749F = {
+			isa = PBXGroup;
+			children = (
+				6FE2131D0C6286C0A03EC70A,
+				AEC8C09730B92E19B54182A2,
+				BDF12F80DBBDBFA42900DCDD,
+				87C3AA2291F47C89C993D6C5,
+				6A66C3545E988C81CFA7DDFB,
+			);
+			sourceTree = "<group>";
+		};
+		6A66C3545E988C81CFA7DDFB = {
+			isa = PBXGroup;
+			children = (
+				2E94CF7DB8D7A3DC91253821,
+				52FA9F47274BDC105CC91BBF,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FE2131D0C6286C0A03EC70A = {
+			isa = PBXGroup;
+			children = (
+				C00CAC661FC0E67CA9BABA39,
+				B499318D87C6AB62B1D5A15F,
+				7FE989262B0CCD1C5023B21B,
+				733439563C4C7CE54F510B04,
+				887B0C5123FBE83620046F60,
+				B3C6089A50A54ADE83BF2A1A,
+				7BB14CC5615B97CFDA3F6AF5,
+				29B8E25F041194932AEB1C36,
+				596EEF6EE0FE50E430250EE2,
+				1C45FD54D932F1842CCB0051,
+				A92F8869CD79AEC6798B9072,
+				B4611FC59A31994FD0C03839,
+				5A138A9CE2D3D60DE34E115A,
+				751D3D92D15DAE67E84EE053,
+				3A960BE5DDD31E23CE86F95A,
+				9A77B41C1394260927686506,
+				4CEDF20443BF6416D77631FD,
+				00D78A7F9003654E151B97FB,
+				C5BD2F71E472D95F4281DC56,
+				350C68927138054D7E14C8A9,
+				012F46EA8B68AF29A9A2E292,
+				61D3273B837EAF24008DC717,
+				95C738BAAE6495A2A6BEA6FB,
+				DEAD1471B5FF682D7E1566C8,
+				EB1CE03A1BBC3A902DF82DA6,
+			);
+			path = BVGarner;
+			sourceTree = "<group>";
+		};
+		AEC8C09730B92E19B54182A2 = {
+			isa = PBXGroup;
+			children = (
+				60D3F053F81896169EDA9546,
+				CC92ECE8704273E143BC29AF,
+				BF2DB9B00094DF5CA8698B70,
+			);
+			path = BVGarnerTests;
+			sourceTree = "<group>";
+		};
+		BDF12F80DBBDBFA42900DCDD = {
+			isa = PBXGroup;
+			children = (
+				0EBF6426C1F8E46F13869101,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1D3CEE935F10B08333F79BC = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6984B2B437ED277D00C86B35;
+			buildPhases = (
+				5D710D1F6E207227C8EFF40C,
+				A88D75DC3E581215323476A3,
+				E0C696E9C42F792F1609745A,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EFC706C89093E963E8EE301,
+			);
+			name = BVGarnerTests;
+			productName = BVGarnerTests;
+			productReference = 52FA9F47274BDC105CC91BBF;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2CB8F350DC69CDA0DFF1CCC = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F43C6708A6D13691F66041;
+			buildPhases = (
+				13CF22C97DBEC031E8FFA1BF,
+				BC01A429C07275469B74DFB1,
+				3EC15C1A257238F4152507B8,
+				0E75B2C113EE2BF31270ECC6,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BVGarner;
+			packageProductDependencies = (
+				489C348277B236E1D3587AC3,
+				84D7AC6D52A1AF94FB824FEA,
+				8C24E9B06FCDA86869AF63F1,
+			);
+			productName = BVGarner;
+			productReference = 2E94CF7DB8D7A3DC91253821;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85EC4DB90A2FCE4638B1D5C0 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F2CB8F350DC69CDA0DFF1CCC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E1D3CEE935F10B08333F79BC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F2CB8F350DC69CDA0DFF1CCC;
+					};
+				};
+			};
+			buildConfigurationList = DC1AC186D3F865458E811FB2;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55563A37A2A2C90A215A749F;
+			packageReferences = (
+				DC0F4B9BE42E33CD35022F0F,
+				4197C8B5516D5597C9491EC7,
+			);
+			productRefGroup = 6A66C3545E988C81CFA7DDFB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2CB8F350DC69CDA0DFF1CCC,
+				E1D3CEE935F10B08333F79BC,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC15C1A257238F4152507B8 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB41F8C02BE68B8FA2AF52D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C696E9C42F792F1609745A = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E75B2C113EE2BF31270ECC6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			alwaysOutOfDate = 1;
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy GoogleService-Info.plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "# Firebase is optional: copy GoogleService-Info.plist when the tester has one (see NEXT-STEPS.md).\nSRC=\"${BV_GOOGLE_SERVICE_INFO_PLIST:-${SRCROOT}/BVGarner/GoogleService-Info.plist}\"\nDEST=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleService-Info.plist\"\nif [ -f \"$SRC\" ]; then\n  cp \"$SRC\" \"$DEST\"\n  echo \"Copied $SRC\"\nelse\n  rm -f \"$DEST\"\n  echo \"warning: no GoogleService-Info.plist, so the app gets no FCM token (see test-app/ios/NEXT-STEPS.md)\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13CF22C97DBEC031E8FFA1BF = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA785E900B2D120DACE700DA,
+				B671EFB68B3D30AB1B1C91CA,
+				767F081C4E6625657B651A73,
+				DD1141DBE8E8DAB40A869F2A,
+				0D48C421BDA5AD3E64C4E7AE,
+				65D881F10D71421A973FF950,
+				B615FB355F029E76A2C5EFAF,
+				416EC3ECF026774B35D97799,
+				3065340299E4661A90938FE1,
+				30BDCE6F04C863E67A3B111E,
+				1B4AD62BBC65C32E086F01C8,
+				99A6895964D67B3C11B25D44,
+				DDBD78837393B3E81D7369F2,
+				B1DB15E6C6A65BCBDDA07EFB,
+				EE3B96106FDC64FBB69C7FAE,
+				C3040B7E599030A846927B66,
+				6226955E0023DCCC617C1D3D,
+				C57956D5B2AC0B3B7ADE213D,
+				BB14F242766C2FA007D847A7,
+				25570A4019B392232A9BCFDA,
+				516D908562A35649EC7801D6,
+				86803EA1705ABB60FDBA157A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D710D1F6E207227C8EFF40C = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375EDB82EC0F88A4596410B4,
+				730026A6B59D410F592E3C23,
+				DB490C9A9F3173B0EC3B036A,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EFC706C89093E963E8EE301 = {
+			isa = PBXTargetDependency;
+			target = F2CB8F350DC69CDA0DFF1CCC;
+			targetProxy = 82D919E899832C0832BB075B;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18DA526C26051E55DAC1B951 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBF6426C1F8E46F13869101;
+			buildSettings = {
+				INFOPLIST_FILE = BVGarner/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BV_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = BVGarnerApp;
+				MARKETING_VERSION = "$(BV_MARKETING_VERSION)";
+				CURRENT_PROJECT_VERSION = "$(BV_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = "$(BV_TEAM_ID)";
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = BVGarner/BVGarner.entitlements;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+			};
+			name = Debug;
+		};
+		7784AD19B84BC9A2F33492E4 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBF6426C1F8E46F13869101;
+			buildSettings = {
+				INFOPLIST_FILE = BVGarner/Info.plist;
+				GENERATE_INFOPLIST_FILE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BV_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = BVGarnerApp;
+				MARKETING_VERSION = "$(BV_MARKETING_VERSION)";
+				CURRENT_PROJECT_VERSION = "$(BV_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = "$(BV_TEAM_ID)";
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = BVGarner/BVGarner.entitlements;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+			};
+			name = Release;
+		};
+		B86D2C246EECADF26AA17F5B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2B423E6FABD6256105CCAC1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		C5AF7B6E8B222E32CD483546 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBF6426C1F8E46F13869101;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BVGarner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BVGarner";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bv.garner.test.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "$(BV_TEAM_ID)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				MARKETING_VERSION = "$(BV_MARKETING_VERSION)";
+				CURRENT_PROJECT_VERSION = "$(BV_BUILD_NUMBER)";
+			};
+			name = Debug;
+		};
+		EBAA2B8B4861A95CD40037A9 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBF6426C1F8E46F13869101;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BVGarner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BVGarner";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = bv.garner.test.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "$(BV_TEAM_ID)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				MARKETING_VERSION = "$(BV_MARKETING_VERSION)";
+				CURRENT_PROJECT_VERSION = "$(BV_BUILD_NUMBER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6984B2B437ED277D00C86B35 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5AF7B6E8B222E32CD483546,
+				EBAA2B8B4861A95CD40037A9,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F43C6708A6D13691F66041 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA526C26051E55DAC1B951,
+				7784AD19B84BC9A2F33492E4,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1AC186D3F865458E811FB2 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B423E6FABD6256105CCAC1,
+				B86D2C246EECADF26AA17F5B,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4197C8B5516D5597C9491EC7 = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+		DC0F4B9BE42E33CD35022F0F = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bazaarvoice/garner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "1.1.0";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		489C348277B236E1D3587AC3 = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC0F4B9BE42E33CD35022F0F;
+			productName = BVGarner;
+		};
+		84D7AC6D52A1AF94FB824FEA = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC0F4B9BE42E33CD35022F0F;
+			productName = BVGarnerFirebase;
+		};
+		8C24E9B06FCDA86869AF63F1 = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4197C8B5516D5597C9491EC7;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 85EC4DB90A2FCE4638B1D5C0;
+}

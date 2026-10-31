@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launcher icon colours, taken from the brand icon. -->
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+    <color name="ic_launcher_mark">#FF002E6E</color>
+</resources>

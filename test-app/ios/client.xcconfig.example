@@ -1,0 +1,20 @@
+// Copy to client.xcconfig (git-ignored) and fill in. Every value is optional;
+// see Config/Base.xcconfig for the defaults and NEXT-STEPS.md for where each comes from.
+
+// Your Apple Developer Team ID (10 characters).
+BV_TEAM_ID = ABCDE12345
+
+// The App ID of your Portal push sender profile, and the Garner Backend this build talks to.
+// Write URLs as https:/$()/host, because two slashes start a comment in xcconfig.
+//   Production (the default): https:/$()/push.prod.bazaarvoice.com
+//   QA:                       the QA endpoint your Bazaarvoice contact gives you
+//   Local backend:            http:/$()/localhost:8082
+BV_APP_ID = 10000001
+BV_BASE_URL = https:/$()/push.prod.bazaarvoice.com
+
+// Another bundle id or name, for example for a client build.
+// BV_BUNDLE_ID = bv.garner.test.app
+// BV_APP_NAME = BV Garner
+
+// A GoogleService-Info.plist kept outside the repo.
+// BV_GOOGLE_SERVICE_INFO_PLIST = /Users/me/firebase/BVGarner-GoogleService-Info.plist

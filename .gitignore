@@ -1,0 +1,4 @@
+# Swift package build output (repo-root Package.swift).
+/.build/
+/.swiftpm/
+.DS_Store

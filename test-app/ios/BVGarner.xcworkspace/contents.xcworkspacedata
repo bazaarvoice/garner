@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BVGarner.xcodeproj takes the SDK from GitHub (a version, like a Maven dependency). This
+     workspace also opens the repository root (../..): Xcode then uses that local package
+     instead of the release, so CI and SDK developers build against this checkout. -->
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:BVGarner.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../..">
+   </FileRef>
+</Workspace>

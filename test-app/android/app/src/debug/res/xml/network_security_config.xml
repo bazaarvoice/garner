@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug only: scoped cleartext for a local Garner backend (emulator host
+     loopback). Release builds use HTTPS only. Scoped domains (not a blanket
+     usesCleartextTraffic) per current Android guidance. -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
+</network-security-config>

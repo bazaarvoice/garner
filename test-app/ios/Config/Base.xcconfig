@@ -1,0 +1,29 @@
+// BV Garner build settings. Do not edit for one tester or client: copy
+// ../client.xcconfig.example to ../client.xcconfig (git-ignored) and override there.
+// The SDK has no project values of its own; the app hands these to BVPush.configure.
+
+// The app.
+BV_APP_NAME = BV Garner
+BV_BUNDLE_ID = bv.garner.test.app
+BV_MARKETING_VERSION = 0.5.0
+BV_BUILD_NUMBER = 5
+
+// The Portal app id (8 digits) and the Garner Backend.
+// The default is the production Garner Backend, the SDK's built-in endpoint. For a backend on
+// the Mac running the simulator, set BV_BASE_URL = http:/$()/localhost:8082 in ../client.xcconfig.
+// `$()` keeps `//` from starting a comment.
+BV_APP_ID = 10000001
+BV_BASE_URL = https:/$()/push.prod.bazaarvoice.com
+
+// Apple signing: your 10-character Team ID (developer.apple.com → Membership).
+BV_TEAM_ID =
+// Optional App Group the SDK keeps its settings in (needed with a notification service extension).
+BV_APP_GROUP =
+// development for Xcode installs; production for TestFlight / App Store builds.
+BV_APS_ENVIRONMENT = development
+BV_APP_ATTEST_ENVIRONMENT = production
+
+// Optional: a GoogleService-Info.plist outside the repo (default BVGarner/GoogleService-Info.plist).
+BV_GOOGLE_SERVICE_INFO_PLIST =
+
+#include? "../client.xcconfig"

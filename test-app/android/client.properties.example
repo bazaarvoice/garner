@@ -1,0 +1,26 @@
+# Copy to client.properties (git-ignored) and fill in your values. See README.md.
+
+# Name shown under the app icon on the device.
+appName=BV Garner
+
+# Your Android package name. Must match the Android app in your Firebase project
+# (the package_name in google-services.json) and the package on your Portal push sender profile.
+# Without client.properties the app uses bv.garner.test.app.
+packageName=bv.garner.test.app
+
+# App ID shown on your push sender profile in Portal.
+appId=
+
+# Garner backend endpoint.
+#   Production: https://push.prod.bazaarvoice.com (the default, the SDK's built-in host)
+#   QA:         the QA endpoint your Bazaarvoice contact gives you
+baseUrl=https://push.prod.bazaarvoice.com
+
+# Google Cloud project number linked to your app in Play Console
+# (Test and release > App integrity > Play Integrity API). Digits only, for example the
+# project_number in google-services.json when it is the same project. Optional.
+cloudProjectNumber=
+
+# Path to your Firebase google-services.json (absolute, ~/..., or relative to this file).
+# It is copied into app/ at build time; never commit it.
+googleServicesJson=

@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The App Startup initializer auto-inits from this id. -->
+    <!-- Cleartext for a local test backend on the emulator host only. -->
+    <application android:usesCleartextTraffic="true">
+        <meta-data
+            android:name="com.bazaarvoice.push.APP_ID"
+            android:value="10000002" />
+    </application>
+</manifest>

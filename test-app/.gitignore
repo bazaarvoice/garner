@@ -1,0 +1,27 @@
+.gradle/
+build/
+local.properties
+.env
+*.iml
+.DS_Store
+# Firebase client config: per-machine — never commit.
+app/google-services.json
+android/app/google-services.json
+# Per-client sample setup (copy of client.properties.example).
+android/client.properties
+# iOS: Firebase client config and per-tester build values (copy of client.xcconfig.example).
+ios/BVGarner/GoogleService-Info.plist
+ios/**/GoogleService-Info.plist
+ios/client.xcconfig
+# Xcode output and per-user state.
+ios/build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.swiftpm/
+# Kotlin 2.x compiler data (Gradle / IDE).
+.kotlin/
+# Xcode workspace state and SwiftPM pins (Package.resolved). Not pinned on purpose: CI also
+# resolves the newest allowed versions.
+ios/BVGarner.xcworkspace/xcshareddata/
+ios/BVGarner.xcodeproj/project.xcworkspace/
